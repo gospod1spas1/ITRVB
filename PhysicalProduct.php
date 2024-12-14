@@ -1,23 +1,16 @@
 <?php
 class PhysicalProduct extends Product
 {
-    public $weight;
-    public $height;
+    private $quantity;
 
-    public function __construct($id, $name, $description, $price, $category, $stock, $rating, $weight, $height)
+    public function __construct($name, $basePrice, $quantity)
     {
-        parent::__construct($id, $name, $description, $price, $category, $stock, $rating);
-        $this->weight = $weight;
-        $this->height = $height;
+        parent::__construct($name, $basePrice);
+        $this->quantity = $quantity;
     }
 
-    public function getDeliveryDetails()
+    public function calculateFinalPrice()
     {
-        return "Вес продукта в упаковке {$this->weight} кг. и его высота {$this->height}";
-    }
-
-    public function warrantyPeriod()
-    {
-        return "Гарантийный срок: Гарантийный срок: Вы можете вернуть товар в течение 6 месяцев при наличии оригинальной упаковки и чека для безвозмездного устранения неполадок";
+        return $this->basePrice * $this->quantity;
     }
 }
