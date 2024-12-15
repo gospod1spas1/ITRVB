@@ -19,11 +19,11 @@ class CreateComment
     public function create(array $data): array
     {
         if (empty($data['author_uuid']) || empty($data['post_uuid']) || empty($data['text'])) {
-            return ['status' => 'error', 'message' => 'Не заполнены обязательные поля'];
+            return ['status' => 'error', 'message' => 'Не заполнены обязательные поля!'];
         }
 
         if (!Uuid::isValid($data['author_uuid']) || !Uuid::isValid($data['post_uuid'])) {
-            return ['status' => 'error', 'message' => 'Неверный формат id'];
+            return ['status' => 'error', 'message' => 'Неверный формат id!'];
         }
 
         try {
@@ -31,7 +31,7 @@ class CreateComment
             $this->repository->save($comment);
             return ['status' => 'success', 'message' => 'Комментарий добавлен'];
         } catch (Exception $e) {
-            return ['status' => 'error', 'message' => 'Ошибка при сохранении комментария'];
+            return ['status' => 'error', 'message' => 'Ошибка при сохранении комментария!'];
         }
     }
 }

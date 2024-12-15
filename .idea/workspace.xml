@@ -5,19 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a56fe3ee-ad06-4e60-b517-31c444264040" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Controllers/CommentsController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controllers/PostsController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repositories/CommentsRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repositories/PostsRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Services/CreateComment.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Services/CreatePost.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Services/DeletePost.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/01e30927-474d-46a1-8105-12539100cedd.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controllers/LikesController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Models/CommentLike.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Models/PostLike.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repositories/Interfaces/LikesRepositoryInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repositories/LikesRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CreateLike.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/5c5e9343-1ace-4a0d-a8ff-9941181514d2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/5c5e9343-1ace-4a0d-a8ff-9941181514d2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/b58f4d63-9aa1-46e2-83a7-d8897d850dc1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b58f4d63-9aa1-46e2-83a7-d8897d850dc1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repositories/CommentsRepositoryInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repositories/Interfaces/CommentsRepositoryInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repositories/PostsRepositoryInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repositories/Interfaces/PostsRepositoryInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repositories/Interfaces/CommentsRepositoryInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repositories/Interfaces/CommentsRepositoryInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repositories/Interfaces/PostsRepositoryInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repositories/Interfaces/PostsRepositoryInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Services/CreateComment.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Services/CreateComment.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Services/CreatePost.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Services/CreatePost.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Services/DeletePost.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Services/DeletePost.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +39,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="lesson5" />
+        <entry key="$PROJECT_DIR$" value="lesson6" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -45,9 +53,56 @@
       <path value="$PROJECT_DIR$/vendor/psr/container" />
       <path value="$PROJECT_DIR$/vendor/fakerphp/faker" />
       <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/http-interop/http-middleware" />
+      <path value="$PROJECT_DIR$/vendor/nyholm/psr7" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/lines-of-code" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/complexity" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/brick/math" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/cli-parser" />
+      <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/slim/slim" />
+      <path value="$PROJECT_DIR$/vendor/slim/psr7" />
+      <path value="$PROJECT_DIR$/vendor/fig/http-message-util" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/nikic/fast-route" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-server-handler" />
+      <path value="$PROJECT_DIR$/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-server-middleware" />
+      <path value="$PROJECT_DIR$/vendor/ramsey/collection" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-factory" />
     </include_path>
   </component>
   <component name="ProjectId" id="2qCDSXrxYuA7ND4fAXoEzTwukks" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -57,7 +112,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/User/PhpstormProjects/ITRVB/src",
+    "last_opened_file_path": "C:/Users/User/PhpstormProjects/ITRVB/src/Services",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -75,9 +130,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\User\PhpstormProjects\ITRVB\src" />
-      <recent name="C:\Users\User\PhpstormProjects\ITRVB\src\Repositories" />
+      <recent name="C:\Users\User\PhpstormProjects\ITRVB\src\Services" />
       <recent name="C:\Users\User\PhpstormProjects\ITRVB\src\Controllers" />
+      <recent name="C:\Users\User\PhpstormProjects\ITRVB\src\Models" />
+      <recent name="C:\Users\User\PhpstormProjects\ITRVB\src\Repositories\Interfaces" />
+      <recent name="C:\Users\User\PhpstormProjects\ITRVB\src\Repositories" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -91,6 +148,7 @@
       <workItem from="1734157664669" duration="2022000" />
       <workItem from="1734163432202" duration="2094000" />
       <workItem from="1734174608189" duration="720000" />
+      <workItem from="1734245961635" duration="1213000" />
     </task>
     <task id="LOCAL-00001" summary="lesson2 is done">
       <option name="closed" value="true" />

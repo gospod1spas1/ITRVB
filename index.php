@@ -1,23 +1,18 @@
 <?php
-require 'vendor/autoload.php';
-require 'CustomAutoload.php';
 
-use App\Models\User;
-use Faker\Factory;
+require __DIR__ . '/vendor/autoload.php';
 
-$faker = Factory::create();
+use Slim\Factory\AppFactory;
+use App\Controllers\CommentsController;
+use App\Controllers\LikesController;
+use App\Controllers\PostsController;
 
-$user = new User($faker->uuid(), $faker->userName, $faker->firstName, $faker->lastName);
-echo "User: {$user->id} {$user->firstName} {$user->lastName}";
+$app = AppFactory::create();
 
-echo ("</br>");
+$app->post('/posts/comment', [CommentsController::class, 'createComment']);
+$app->delete('/posts', [PostsController::class, 'deletePost']);
 
-$postClassName = "App\Models\Post";
-$post = new $postClassName(
-    $faker->uuid(),
-    $faker->uuid(),
-    $faker->title,
-    $faker->text
-);
+$app->post('/posts/like', [LikesController::class, 'createPostLike']);
+$app->post('/comments/like', [LikesController::class, 'createCommentLike']);
 
-echo "Post: {$post->id} {$post->title} {$post->text}";
+$app->run();
