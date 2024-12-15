@@ -3,7 +3,8 @@
     "description": "-",
     "type": "project",
     "require-dev": {
-        "fakerphp/faker": "^1.19"
+        "fakerphp/faker": "^1.19",
+        "phpunit/phpunit": "^9.0"
     },
     "license": "MIT",
     "autoload": {
@@ -11,5 +12,14 @@
             "App\\": "src/"
         }
     },
-    "minimum-stability": "stable"
+    "minimum-stability": "stable",
+    "require": {
+        "ramsey/uuid": "^4.7",
+        "psr/http-message": "^1.1",
+        "nyholm/psr7": "^1.8",
+        "http-interop/http-middleware": "^0.5.0",
+        "slim/slim": "^4.0",
+        "slim/psr7": "^1.7",
+        "monolog/monolog": "^3.7"
+    }
 }

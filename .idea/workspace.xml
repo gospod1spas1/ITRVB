@@ -5,27 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a56fe3ee-ad06-4e60-b517-31c444264040" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Controllers/LikesController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Models/CommentLike.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Models/PostLike.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repositories/Interfaces/LikesRepositoryInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repositories/LikesRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Services/CreateLike.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5c5e9343-1ace-4a0d-a8ff-9941181514d2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/5c5e9343-1ace-4a0d-a8ff-9941181514d2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b58f4d63-9aa1-46e2-83a7-d8897d850dc1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b58f4d63-9aa1-46e2-83a7-d8897d850dc1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/TestLogger.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_14_12_2024_16_30__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_14_12_2024_16_30__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repositories/Interfaces/CommentsRepositoryInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repositories/Interfaces/CommentsRepositoryInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repositories/Interfaces/PostsRepositoryInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repositories/Interfaces/PostsRepositoryInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Services/CreateComment.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Services/CreateComment.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Services/CreatePost.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Services/CreatePost.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Services/DeletePost.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Services/DeletePost.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repositories/CommentsRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repositories/CommentsRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repositories/LikesRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repositories/LikesRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repositories/PostsRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repositories/PostsRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/CommentsRepositoryTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/CommentsRepositoryTest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +25,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="lesson6" />
+        <entry key="$PROJECT_DIR$" value="lesson7" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -112,7 +98,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/User/PhpstormProjects/ITRVB/src/Services",
+    "last_opened_file_path": "C:/Users/User/PhpstormProjects/ITRVB/tests",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -130,11 +116,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\PhpstormProjects\ITRVB\tests" />
+      <recent name="C:\Users\User\PhpstormProjects\ITRVB\src\Repositories" />
+      <recent name="C:\Users\User\PhpstormProjects\ITRVB" />
       <recent name="C:\Users\User\PhpstormProjects\ITRVB\src\Services" />
       <recent name="C:\Users\User\PhpstormProjects\ITRVB\src\Controllers" />
-      <recent name="C:\Users\User\PhpstormProjects\ITRVB\src\Models" />
-      <recent name="C:\Users\User\PhpstormProjects\ITRVB\src\Repositories\Interfaces" />
-      <recent name="C:\Users\User\PhpstormProjects\ITRVB\src\Repositories" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -182,7 +168,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734165451227</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="f">
+      <option name="closed" value="true" />
+      <created>1734248198147</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1734248198147</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,6 +187,7 @@
     <MESSAGE value="lesson3 is done" />
     <MESSAGE value="lesson4 is done" />
     <MESSAGE value="lesson5 is done" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson5 is done" />
+    <MESSAGE value="f" />
+    <option name="LAST_COMMIT_MESSAGE" value="f" />
   </component>
 </project>
